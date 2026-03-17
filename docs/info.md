@@ -9,12 +9,16 @@ You can also include images in this folder and reference them in the markdown. E
 
 ## How it works
 
-Explain how your project works
+The design targets two ring oscillators operating at approximately 600 MHz and 300 MHz. Due to pad loading, the output signal is expected to be attenuated. 
+The first oscillator consists of 18 inverters along with a NAND gate for enable control, 
+while the second oscillator uses 36 inverters and a NAND gate. To ensure sufficient output drive strength, a two-stage inverter buffer with large-sized transistors is employed.
 
 ## How to test
 
-Explain how to use your project
+Enable 600 MHz oscillator 1 by setting user input pin 0 high and measure the signal at analog output 0.
+Enable 300 MHz oscillator 2 by setting user input pin 1 high and measure the signal at analog output 1.
+The 300 MHz ring oscillator had a problem with a missing contact in TT08, and is not expected to work. It has been fixed for TT09.
 
 ## External hardware
 
-List external hardware used in your project (e.g. PMOD, LED display, etc), if any
+Oscilloscope.
