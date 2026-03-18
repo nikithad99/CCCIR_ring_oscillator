@@ -1,7 +1,7 @@
 # Tiny Tapeout project information
 project:
   title:        "Ring Oscillators"      # Project title
-  author:       "Matt Venn"      # Your name
+  author:       "Nikitha"      # Your name
   discord:      "mattvenn"      # Your discord username, for communication and automatically assigning you a Tapeout role (optional)
   description:  "Ring Oscillators using analog output pins"      # One line description of what your project does
   language:     "Analog" # other examples include Verilog, Amaranth, VHDL, etc
