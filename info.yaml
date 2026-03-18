@@ -2,7 +2,7 @@
 project:
   title:        "Ring Oscillators"      # Project title
   author:       "Nikitha"      # Your name
-  discord:      "mattvenn"      # Your discord username, for communication and automatically assigning you a Tapeout role (optional)
+  discord:      "Nikitha"      # Your discord username, for communication and automatically assigning you a Tapeout role (optional)
   description:  "Ring Oscillators using analog output pins"      # One line description of what your project does
   language:     "Analog" # other examples include Verilog, Amaranth, VHDL, etc
   clock_hz:     0       # Clock frequency in Hz (or 0 if not applicable)
